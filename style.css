@@ -1,0 +1,9 @@
+canvas {
+    animation-name: changing_color;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+@keyframes changing_color {
+    from{box-shadow: 1px 1px 30px blue;}
+    to{box-shadow: 1px 1px 30px green;}
+}
